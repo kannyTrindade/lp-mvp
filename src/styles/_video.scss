@@ -1,0 +1,26 @@
+#video {
+  #activate-sound {
+    cursor: pointer;
+    z-index: 3;
+  }
+  #progress-container {
+    height: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    z-index: 2;
+    bottom: 7px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    #progress {
+      height: 100%;
+      background: #b4b15b;
+      width: 0%;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  }
+  #video-player {
+    cursor: pointer;
+  }
+}

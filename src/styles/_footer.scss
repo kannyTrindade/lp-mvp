@@ -1,0 +1,16 @@
+.links {
+  li {
+    a {
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
+    }
+  }
+  @media (max-width: 768px) {
+    li {
+      width: 100%;
+      a {
+        font-size: 1.5em;
+      }
+    }
+  }
+}

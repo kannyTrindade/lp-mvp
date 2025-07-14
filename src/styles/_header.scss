@@ -1,0 +1,35 @@
+header {
+  max-width: 1200px;
+  margin: auto;
+}
+nav {
+  a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    &:hover {
+      color: #198754;
+    }
+  }
+}
+
+#menu {
+  a {
+    font-weight: 600;
+    color: #198754;
+    &:hover {
+      background-color: #e9ecef;
+    }
+    &.btn {
+      color: #ffffff;
+      &:hover {
+        background-color: #1d9e62;
+      }
+    }
+  }
+}
+
+.logo {
+  max-width: 120px;
+}

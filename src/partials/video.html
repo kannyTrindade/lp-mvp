@@ -1,0 +1,41 @@
+<section id="video" class="text-center py-5" style="background-color: #def0d8">
+  <div class="container">
+    <div class="mx-auto" style="max-width: 768px; position: relative">
+      <div
+        id="activate-sound"
+        class="position-absolute top-50 start-50 translate-middle bg-dark bg-opacity-75 text-white px-4 py-2 rounded shadow"
+      >
+        Click to Unmute
+      </div>
+
+      <video
+        id="video-player"
+        muted
+        autoplay
+        preload="auto"
+        playsinline
+        class="w-100 rounded shadow"
+      >
+        <source
+          src="https://ia902201.us.archive.org/15/items/filme-saude-tem-cura/FILME%20Sa%C3%BAde%20Tem%20Cura.mp4"
+          type="video/mp4"
+        />
+        Your Browser doesn't support this video.
+      </video>
+      <div
+        class="video-controls position-absolute bottom-0 end-0 p-3 d-flex gap-2 z-3 w-100 justify-content-between"
+      >
+        <button id="btn-play-pause" class="btn btn-sm btn-light shadow">
+          ⏸️
+        </button>
+        <button id="btn-mute-toggle" class="btn btn-sm btn-light shadow">
+          🔇
+        </button>
+      </div>
+
+      <div id="progress-container" class="position-absolute start-0 w-100">
+        <div id="progress"></div>
+      </div>
+    </div>
+  </div>
+</section>
