@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         progressBar.style.width = `${percentage}%`;
       }
 
-      if (video.currentTime >= 5) {
+      if (video.currentTime >= 1214) {
         hiddenOffers.forEach(el => {
           if (el.classList.contains('hidden-offer')) {
             el.classList.remove('hidden-offer');
